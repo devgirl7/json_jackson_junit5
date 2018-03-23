@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b2b55-5b0e-49c3-9cf9-ded711ca4ee0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyPeople.json" afterPath="$PROJECT_DIR$/src/main/resources/MyPeople.json" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/runners/JunitRunner.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -340,8 +334,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
                 <element signature="e#1470#1510#1" expanded="true" />
@@ -499,7 +493,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -901,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521792579478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added second runner file.&#10;Implemented write to file using jackson objectWriter">
+      <created>1521795784460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521795784460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -937,7 +938,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -973,7 +974,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added usage with JsonObject: simple.json&#10;Added test to support usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added usage with JsonObject: simple.json&#10;Added test to support usage" />
+    <MESSAGE value="Added second runner file.&#10;Implemented write to file using jackson objectWriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added second runner file.&#10;Implemented write to file using jackson objectWriter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1983,8 +1985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
             <element signature="e#1470#1510#1" expanded="true" />
