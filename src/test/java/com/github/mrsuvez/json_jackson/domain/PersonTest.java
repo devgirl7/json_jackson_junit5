@@ -1,6 +1,8 @@
 package com.github.mrsuvez.json_jackson.domain;
 
 import com.github.mrsuvez.json_jackson.dataHandler.DataHandler;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.*;
 
 import java.io.IOException;
@@ -42,9 +44,9 @@ public class PersonTest {
     @Tag("fast")
     @Test
     public void write_to_json() throws IOException {
-        Person person = dataHandler.getPerson();
-        person.setLocation("Mars");
-        dataHandler.setPerson(person);
+        // Person person = dataHandler.getPerson();
+        dataHandler.getPerson().setLocation("Mars");
+       // dataHandler.setPerson(person);
     }
 
     @DisplayName("Disabled Test should not run")
@@ -55,5 +57,20 @@ public class PersonTest {
         Person person = dataHandler.getPerson();
         person.setLocation("Mars");
         dataHandler.setPerson(person);
+    }
+
+    @Test
+    @Tag("fast")
+    @DisplayName("Working with JsonObject from simple.json")
+    public void testJsonObject() throws IOException, ParseException {
+        assertEquals("Jason",dataHandler.getJson().get("firstName"));
+    }
+
+    @Test
+    @Tag("fast")
+    @DisplayName("Working with JsonObject from simple.json on complex json")
+    public void testJsonObjectComplex() throws IOException, ParseException {
+        JSONObject complex = (JSONObject) dataHandler.getJson().get("complex");
+        assertEquals("yetAnotherValue",complex.get("yetAnotherKey"));
     }
 }
