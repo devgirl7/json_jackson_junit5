@@ -1,9 +1,14 @@
 package com.github.mrsuvez.json_jackson.domain;
 
+import com.fasterxml.jackson.core.JsonParser;
 import com.github.mrsuvez.json_jackson.dataHandler.DataHandler;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -11,7 +16,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PersonTest {
 
-    private DataHandler dataHandler = new DataHandler();
+    @Autowired
+    private DataHandler dataHandler;
     private PersonTest() throws IOException {
     }
 
@@ -82,5 +88,15 @@ public class PersonTest {
     public void testJsonObjectComplex() throws IOException, ParseException {
         JSONObject complex = (JSONObject) dataHandler.getJson().get("complex");
         assertEquals("yetAnotherValue",complex.get("yetAnotherKey"));
+    }
+
+    @Test
+    @DisplayName("Reading Person FirstName from API")
+    @Tag("fast")
+    public void testPerson_FirstName_From_API() throws IOException, ParseException {
+        RestTemplate restTemplate = new RestTemplate();
+        JSONParser jsonParser = new JSONParser();
+        ResponseEntity<Person> person = restTemplate.getForEntity("http://localhost:8080/person",Person.class);
+        assertEquals("Jason",person.getBody().getFirstName());
     }
 }

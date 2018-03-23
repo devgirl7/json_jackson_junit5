@@ -2,7 +2,7 @@
   "firstName" : "Jason",
   "lastName" : "Jackson",
   "mobile" : "0210000000",
-  "location" : "Earth",
+  "location" : "Mars",
   "pets" : [ "james", "spencer" ],
   "complex" : {
     "anotherKey" : "anotherValue",

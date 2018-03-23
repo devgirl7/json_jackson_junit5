@@ -8,9 +8,11 @@ import com.github.mrsuvez.json_jackson.domain.Person;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.springframework.stereotype.Service;
 
 import java.io.*;
 
+@Service
 public class DataHandler {
 
     private String myJaonFilePath = "src\\main\\resources\\MyPeople.json";
