@@ -39,14 +39,24 @@ public class PersonTest {
         assertEquals(dataHandler.getPerson().getComplex().getAnotherKey(),"anotherValue");
     }
 
-
     @DisplayName("Write back to json file")
-    @Tag("fast")
+    @Tag("slow")
     @Test
     public void write_to_json() throws IOException {
-        // Person person = dataHandler.getPerson();
-        dataHandler.getPerson().setLocation("Mars");
-       // dataHandler.setPerson(person);
+        Person person = dataHandler.getPerson();
+        if(person.getLocation().matches("Earth"))
+        {
+            System.out.println("Location is Earth setting to Mars");
+            person.setLocation("Mars");
+            dataHandler.getObjectWriter().writeValue(dataHandler.getMyJaonFilePath(), person);
+            assertEquals("Mars", dataHandler.getPerson().getLocation());
+        }
+        else
+         {
+            person.setLocation("Earth");
+            dataHandler.getObjectWriter().writeValue(dataHandler.getMyJaonFilePath(), person);
+            assertEquals("Earth", dataHandler.getPerson().getLocation());
+        }
     }
 
     @DisplayName("Disabled Test should not run")
@@ -56,7 +66,7 @@ public class PersonTest {
     public void a_slow_test() throws IOException {
         Person person = dataHandler.getPerson();
         person.setLocation("Mars");
-        dataHandler.setPerson(person);
+        dataHandler.getObjectWriter().writeValue(dataHandler.getMyJaonFilePath(),person);
     }
 
     @Test

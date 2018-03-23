@@ -7,11 +7,11 @@ import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.SuiteDisplayName;
 import org.junit.runner.RunWith;
 
-@IncludeTags("fast")
-@ExcludeTags("slow")
+@IncludeTags("slow")
+@ExcludeTags("fast")
 @SelectPackages("com.github.mrsuvez.json_jackson.domain")
 @SuiteDisplayName("Test Suite Example")
 @RunWith(JUnitPlatform.class)
-public class JunitRunner {
+public class JunitRunnerSlow {
 
 }

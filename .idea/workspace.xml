@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b2b55-5b0e-49c3-9cf9-ded711ca4ee0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MyPeople.json" afterPath="$PROJECT_DIR$/src/main/resources/MyPeople.json" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/runners/JunitRunner.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
@@ -27,13 +35,17 @@
       <file leaf-file-name="DataHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="341">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#368#405#0" expanded="true" />
-                <element signature="e#941#1023#1" expanded="true" />
-                <element signature="e#961#1022#0" expanded="true" />
+                <element signature="e#481#518#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#1078#1160#1" expanded="true" />
+                <element signature="e#1098#1159#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -318,44 +330,69 @@
       <file leaf-file-name="MyPeople.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/MyPeople.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="147">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-                <element signature="e#1523#1566#0" expanded="true" />
-                <element signature="e#1523#1566#0" expanded="true" />
-                <element signature="e#1826#1852#0" expanded="true" />
-                <element signature="e#1826#1852#0" expanded="true" />
-                <element signature="e#2087#2108#0" expanded="true" />
-                <element signature="e#2087#2125#0" expanded="true" />
-                <element signature="e#2087#2125#0" expanded="true" />
-                <element signature="e#2324#2395#1" expanded="true" />
-                <element signature="e#2345#2394#0" expanded="true" />
-                <element signature="e#2358#2379#0" expanded="true" />
-                <element signature="e#2358#2394#0" expanded="true" />
-                <element signature="e#2358#2394#0" expanded="true" />
-                <element signature="e#2435#2463#0" expanded="true" />
-                <element signature="e#2435#2463#0" expanded="true" />
+                <element signature="e#1470#1510#1" expanded="true" />
+                <element signature="e#1486#1509#0" expanded="true" />
+                <element signature="e#1522#1542#0" expanded="true" />
+                <element signature="e#1652#1678#0" expanded="true" />
+                <element signature="e#1652#1678#0" expanded="true" />
+                <element signature="e#1692#1721#0" expanded="true" />
+                <element signature="e#1733#1764#0" expanded="true" />
+                <element signature="e#1808#1831#0" expanded="true" />
+                <element signature="e#1808#1845#0" expanded="true" />
+                <element signature="e#1894#1921#0" expanded="true" />
+                <element signature="e#1894#1921#0" expanded="true" />
+                <element signature="e#1935#1964#0" expanded="true" />
+                <element signature="e#1976#2007#0" expanded="true" />
+                <element signature="e#2052#2075#0" expanded="true" />
+                <element signature="e#2052#2089#0" expanded="true" />
+                <element signature="e#2319#2345#0" expanded="true" />
+                <element signature="e#2319#2345#0" expanded="true" />
+                <element signature="e#2355#2384#0" expanded="true" />
+                <element signature="e#2396#2427#0" expanded="true" />
+                <element signature="e#2631#2652#0" expanded="true" />
+                <element signature="e#2631#2669#0" expanded="true" />
+                <element signature="e#2631#2669#0" expanded="true" />
+                <element signature="e#2868#2939#1" expanded="true" />
+                <element signature="e#2889#2938#0" expanded="true" />
+                <element signature="e#2902#2923#0" expanded="true" />
+                <element signature="e#2902#2938#0" expanded="true" />
+                <element signature="e#2902#2938#0" expanded="true" />
+                <element signature="e#2979#3007#0" expanded="true" />
+                <element signature="e#2979#3007#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JunitRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java">
+      <file leaf-file-name="JunitRunnerFast.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="189">
               <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JunitRunnerSlow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -413,11 +450,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/domain/Complex.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/main/resources/MyPeople.json" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java" />
       </list>
     </option>
   </component>
@@ -461,7 +499,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -618,7 +656,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JunitRunner">
+  <component name="RunManager" selected="JUnit.JunitRunnerSlow">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -640,7 +678,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="JunitRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitRunnerFast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.mrsuvez.json_jackson.runners.*" />
@@ -651,7 +689,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.runners.JunitRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.runners.JunitRunnerFast" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -665,18 +703,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitRunnerSlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.github.mrsuvez.json_jackson.domain.*" />
+          <option name="PATTERN" value="com.github.mrsuvez.json_jackson.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="json_jackson" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.domain.PersonTest" />
+      <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.runners.JunitRunnerSlow" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -715,31 +753,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PersonTest.testJsonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.mrsuvez.json_jackson.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="json_jackson" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.domain.PersonTest" />
-      <option name="METHOD_NAME" value="testJsonObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="PersonTest.testJsonObjectComplex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -753,6 +766,31 @@
       <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.domain" />
       <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.domain.PersonTest" />
       <option name="METHOD_NAME" value="testJsonObjectComplex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PersonTest.write_to_json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.mrsuvez.json_jackson.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="json_jackson" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.mrsuvez.json_jackson.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.github.mrsuvez.json_jackson.domain.PersonTest" />
+      <option name="METHOD_NAME" value="write_to_json" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -826,19 +864,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JunitRunner" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JunitRunnerFast" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.a_slow_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObject" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObjectComplex" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObjectComplex" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PersonTest.write_to_json" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JunitRunnerSlow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JunitRunner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObjectComplex" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObject" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PersonTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PersonTest.a_slow_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JunitRunnerSlow" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.write_to_json" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PersonTest.a_slow_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JunitRunnerFast" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PersonTest.testJsonObjectComplex" />
       </list>
     </recent_temporary>
   </component>
@@ -867,50 +905,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JunitRunner - 2018.03.23 at 21h 04m 59s.xml">
-      <configuration name="JunitRunner" configurationId="JUnit" />
+    <history-entry file="JunitRunnerSlow - 2018.03.23 at 22h 01m 39s.xml">
+      <configuration name="JunitRunnerSlow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JunitRunner - 2018.03.23 at 21h 05m 42s.xml">
-      <configuration name="JunitRunner" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 51m 51s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest - 2018.03.22 at 22h 34m 36s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 56m 31s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_a_slow_test - 2018.03.22 at 22h 33m 47s.xml">
-      <configuration name="PersonTest.a_slow_test" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 57m 46s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObject - 2018.03.23 at 20h 55m 30s.xml">
-      <configuration name="PersonTest.testJsonObject" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 57m 52s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObject - 2018.03.23 at 20h 55m 41s.xml">
-      <configuration name="PersonTest.testJsonObject" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 58m 52s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObject - 2018.03.23 at 20h 56m 05s.xml">
-      <configuration name="PersonTest.testJsonObject" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 21h 58m 56s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObject - 2018.03.23 at 20h 56m 56s.xml">
-      <configuration name="PersonTest.testJsonObject" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 22h 00m 01s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObjectComplex - 2018.03.23 at 21h 00m 31s.xml">
-      <configuration name="PersonTest.testJsonObjectComplex" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 22h 00m 05s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonTest_testJsonObjectComplex - 2018.03.23 at 21h 03m 09s.xml">
-      <configuration name="PersonTest.testJsonObjectComplex" configurationId="JUnit" />
+    <history-entry file="PersonTest_write_to_json - 2018.03.23 at 22h 00m 21s.xml">
+      <configuration name="PersonTest.write_to_json" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16917293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31470925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31470925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2911944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1002,25 +1040,40 @@
           <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#2087#2108#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2324#2395#1" expanded="true" />
-            <element signature="e#2345#2394#0" expanded="true" />
-            <element signature="e#2358#2379#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
+            <element signature="e#1470#1510#1" expanded="true" />
+            <element signature="e#1486#1509#0" expanded="true" />
+            <element signature="e#1522#1542#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1692#1721#0" expanded="true" />
+            <element signature="e#1733#1764#0" expanded="true" />
+            <element signature="e#1808#1831#0" expanded="true" />
+            <element signature="e#1808#1845#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1935#1964#0" expanded="true" />
+            <element signature="e#1976#2007#0" expanded="true" />
+            <element signature="e#2052#2075#0" expanded="true" />
+            <element signature="e#2052#2089#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2355#2384#0" expanded="true" />
+            <element signature="e#2396#2427#0" expanded="true" />
+            <element signature="e#2631#2652#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2868#2939#1" expanded="true" />
+            <element signature="e#2889#2938#0" expanded="true" />
+            <element signature="e#2902#2923#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -1060,9 +1113,13 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#405#0" expanded="true" />
-            <element signature="e#941#1023#1" expanded="true" />
-            <element signature="e#961#1022#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1078#1160#1" expanded="true" />
+            <element signature="e#1098#1159#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1125,14 +1182,18 @@
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#405#0" expanded="true" />
-            <element signature="e#941#1023#1" expanded="true" />
-            <element signature="e#961#1022#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1078#1160#1" expanded="true" />
+            <element signature="e#1098#1159#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -1172,20 +1233,35 @@
           <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#2087#2108#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2324#2395#1" expanded="true" />
-            <element signature="e#2345#2394#0" expanded="true" />
-            <element signature="e#2358#2379#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
+            <element signature="e#1470#1510#1" expanded="true" />
+            <element signature="e#1486#1509#0" expanded="true" />
+            <element signature="e#1522#1542#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1692#1721#0" expanded="true" />
+            <element signature="e#1733#1764#0" expanded="true" />
+            <element signature="e#1808#1831#0" expanded="true" />
+            <element signature="e#1808#1845#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1935#1964#0" expanded="true" />
+            <element signature="e#1976#2007#0" expanded="true" />
+            <element signature="e#2052#2075#0" expanded="true" />
+            <element signature="e#2052#2089#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2355#2384#0" expanded="true" />
+            <element signature="e#2396#2427#0" expanded="true" />
+            <element signature="e#2631#2652#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2868#2939#1" expanded="true" />
+            <element signature="e#2889#2938#0" expanded="true" />
+            <element signature="e#2902#2923#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1248,9 +1324,13 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#405#0" expanded="true" />
-            <element signature="e#941#1023#1" expanded="true" />
-            <element signature="e#961#1022#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1078#1160#1" expanded="true" />
+            <element signature="e#1098#1159#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1287,20 +1367,35 @@
           <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#2087#2108#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2324#2395#1" expanded="true" />
-            <element signature="e#2345#2394#0" expanded="true" />
-            <element signature="e#2358#2379#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
+            <element signature="e#1470#1510#1" expanded="true" />
+            <element signature="e#1486#1509#0" expanded="true" />
+            <element signature="e#1522#1542#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1692#1721#0" expanded="true" />
+            <element signature="e#1733#1764#0" expanded="true" />
+            <element signature="e#1808#1831#0" expanded="true" />
+            <element signature="e#1808#1845#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1935#1964#0" expanded="true" />
+            <element signature="e#1976#2007#0" expanded="true" />
+            <element signature="e#2052#2075#0" expanded="true" />
+            <element signature="e#2052#2089#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2355#2384#0" expanded="true" />
+            <element signature="e#2396#2427#0" expanded="true" />
+            <element signature="e#2631#2652#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2868#2939#1" expanded="true" />
+            <element signature="e#2889#2938#0" expanded="true" />
+            <element signature="e#2902#2923#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1311,9 +1406,13 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#405#0" expanded="true" />
-            <element signature="e#941#1023#1" expanded="true" />
-            <element signature="e#961#1022#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1078#1160#1" expanded="true" />
+            <element signature="e#1098#1159#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1402,20 +1501,35 @@
           <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#2087#2108#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2324#2395#1" expanded="true" />
-            <element signature="e#2345#2394#0" expanded="true" />
-            <element signature="e#2358#2379#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
+            <element signature="e#1470#1510#1" expanded="true" />
+            <element signature="e#1486#1509#0" expanded="true" />
+            <element signature="e#1522#1542#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1692#1721#0" expanded="true" />
+            <element signature="e#1733#1764#0" expanded="true" />
+            <element signature="e#1808#1831#0" expanded="true" />
+            <element signature="e#1808#1845#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1935#1964#0" expanded="true" />
+            <element signature="e#1976#2007#0" expanded="true" />
+            <element signature="e#2052#2075#0" expanded="true" />
+            <element signature="e#2052#2089#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2355#2384#0" expanded="true" />
+            <element signature="e#2396#2427#0" expanded="true" />
+            <element signature="e#2631#2652#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2868#2939#1" expanded="true" />
+            <element signature="e#2889#2938#0" expanded="true" />
+            <element signature="e#2902#2923#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1452,7 +1566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
@@ -1533,6 +1646,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1811,64 +1932,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7896">
+          <caret line="427" column="23" lean-forward="false" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="341">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#405#0" expanded="true" />
-            <element signature="e#941#1023#1" expanded="true" />
-            <element signature="e#961#1022#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1078#1160#1" expanded="true" />
+            <element signature="e#1098#1159#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/MyPeople.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="147">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerFast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="189">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/runners/JunitRunnerSlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="method#PersonTest#0;class#PersonTest#0" expanded="false" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1523#1566#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#1826#1852#0" expanded="true" />
-            <element signature="e#2087#2108#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2087#2125#0" expanded="true" />
-            <element signature="e#2324#2395#1" expanded="true" />
-            <element signature="e#2345#2394#0" expanded="true" />
-            <element signature="e#2358#2379#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2358#2394#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
-            <element signature="e#2435#2463#0" expanded="true" />
+            <element signature="e#1470#1510#1" expanded="true" />
+            <element signature="e#1486#1509#0" expanded="true" />
+            <element signature="e#1522#1542#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1652#1678#0" expanded="true" />
+            <element signature="e#1692#1721#0" expanded="true" />
+            <element signature="e#1733#1764#0" expanded="true" />
+            <element signature="e#1808#1831#0" expanded="true" />
+            <element signature="e#1808#1845#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1894#1921#0" expanded="true" />
+            <element signature="e#1935#1964#0" expanded="true" />
+            <element signature="e#1976#2007#0" expanded="true" />
+            <element signature="e#2052#2075#0" expanded="true" />
+            <element signature="e#2052#2089#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2319#2345#0" expanded="true" />
+            <element signature="e#2355#2384#0" expanded="true" />
+            <element signature="e#2396#2427#0" expanded="true" />
+            <element signature="e#2631#2652#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2631#2669#0" expanded="true" />
+            <element signature="e#2868#2939#1" expanded="true" />
+            <element signature="e#2889#2938#0" expanded="true" />
+            <element signature="e#2902#2923#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2902#2938#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
+            <element signature="e#2979#3007#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
