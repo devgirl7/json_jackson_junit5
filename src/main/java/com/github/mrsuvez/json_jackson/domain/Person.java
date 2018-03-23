@@ -24,32 +24,8 @@ public class Person {
         return complex;
     }
 
-    public void setComplex(Complex complex) {
-        this.complex = complex;
-    }
-
     public String getFirstName() {
         return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
     }
 
     public String getLocation() {
@@ -64,9 +40,6 @@ public class Person {
         return pets;
     }
 
-    public void setPets(List<String> pets) {
-        this.pets = pets;
-    }
     @Override
     public String toString() {
         return "Person{" +

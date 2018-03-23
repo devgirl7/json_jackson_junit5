@@ -12,21 +12,8 @@ public class Complex {
     @JsonProperty("yetAnotherKey")
     private String yetAnotherKey;
 
-
-    public String getYetAnotherKey() {
-        return yetAnotherKey;
-    }
-
-    public void setYetAnotherKey(String yetAnotherKey) {
-        this.yetAnotherKey = yetAnotherKey;
-    }
-
     public String getAnotherKey() {
         return anotherKey;
-    }
-
-    public void setAnotherKey(String anotherKey) {
-        this.anotherKey = anotherKey;
     }
 
     @Override
