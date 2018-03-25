@@ -4,7 +4,6 @@ import com.github.mrsuvez.json_jackson.dataHandler.DataHandler;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.*;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PersonTest {
-
 
     private DataHandler dataHandler = new DataHandler();
 

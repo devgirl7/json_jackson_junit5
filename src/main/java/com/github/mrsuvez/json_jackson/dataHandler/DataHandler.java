@@ -22,6 +22,12 @@ public class DataHandler {
     private ObjectWriter objectWriter = objectMapper.writer(new DefaultPrettyPrinter());
     private JSONParser jsonParser = new JSONParser();
 
+    public String getSpringTestThis() {
+        return springTestThis;
+    }
+
+    private String springTestThis = "springTestThis";
+
     public ObjectWriter getObjectWriter() {
         return objectWriter;
     }
