@@ -1,5 +1,0 @@
-com\github\mrsuvez\json_jackson\App.class
-com\github\mrsuvez\json_jackson\domain\Person.class
-com\github\mrsuvez\json_jackson\domain\Complex.class
-com\github\mrsuvez\json_jackson\controller\PersonController.class
-com\github\mrsuvez\json_jackson\dataHandler\DataHandler.class

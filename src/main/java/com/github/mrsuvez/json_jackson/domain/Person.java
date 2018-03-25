@@ -2,12 +2,10 @@ package com.github.mrsuvez.json_jackson.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-@Component
 public class Person {
 
     @JsonProperty("firstName")

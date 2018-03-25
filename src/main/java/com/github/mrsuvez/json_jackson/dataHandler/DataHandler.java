@@ -10,7 +10,9 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Service;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 @Service
 public class DataHandler {
@@ -23,7 +25,7 @@ public class DataHandler {
     public ObjectWriter getObjectWriter() {
         return objectWriter;
     }
-    public DataHandler() throws IOException {
+    public DataHandler(){
     }
     public Person getPerson() throws IOException {
         return objectMapper.readerFor(Person.class).readValue(new File(myJaonFilePath));
