@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b2b55-5b0e-49c3-9cf9-ded711ca4ee0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/SpringJunit4Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/SpringJunit5Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/MyPeople.json" afterPath="$PROJECT_DIR$/target/classes/MyPeople.json" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" />
@@ -41,11 +37,10 @@
       <file leaf-file-name="SpringJunit5Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/SpringJunit5Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="287">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
                 <element signature="e#724#755#0" expanded="true" />
                 <element signature="e#756#787#0" expanded="true" />
                 <element signature="e#794#795#0" expanded="true" />
@@ -586,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521951507033</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added junit5 and springboot test">
+      <created>1521963440515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521963440515</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -660,7 +662,8 @@
     <MESSAGE value="Added usage with JsonObject: simple.json&#10;Added test to support usage" />
     <MESSAGE value="Added second runner file.&#10;Implemented write to file using jackson objectWriter" />
     <MESSAGE value="added rest template&#10;added controller&#10;added test for api call" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rest template&#10;added controller&#10;added test for api call" />
+    <MESSAGE value="added junit5 and springboot test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added junit5 and springboot test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,11 +1239,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/SpringJunit5Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="287">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
             <element signature="e#724#755#0" expanded="true" />
             <element signature="e#756#787#0" expanded="true" />
             <element signature="e#794#795#0" expanded="true" />
