@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b2b55-5b0e-49c3-9cf9-ded711ca4ee0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/json_jackson.iml" afterPath="$PROJECT_DIR$/json_jackson.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/controller/PersonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/controller/PersonController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/domain/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/mrsuvez/json_jackson/domain/Person.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyPeople.json" afterPath="$PROJECT_DIR$/src/main/resources/MyPeople.json" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/mrsuvez/json_jackson/domain/PersonTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/App.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/App.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/controller/PersonController.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/controller/PersonController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/dataHandler/DataHandler.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/domain/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/github/mrsuvez/json_jackson/domain/Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/mrsuvez/json_jackson/domain/PersonTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -276,7 +249,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-126" />
     <option name="y" value="480" />
     <option name="width" value="1938" />
@@ -695,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521803596147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added rest template&#10;added controller&#10;added test for api call">
+      <created>1521951507033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521951507033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,7 +711,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1210,6 +1190,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1197">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
